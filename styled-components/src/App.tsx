@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { ButtonHTMLAttributes, DetailedHTMLProps } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import styled from 'styled-components';
@@ -11,6 +11,8 @@ const SimpleButton = styled.button`
 const LargeButton = styled( SimpleButton ) `
   font-size: 50px;
 `;
+
+
 
 function App() {
   return (
